@@ -5,7 +5,7 @@ namespace GeniusIdiot.Common
     public class Test
     {
         private List<Question> _questions;
-        private bool _timeElapsed = false;
+        private bool _time = true;
         private IMessage _message;
         private string _rootPathFiles;
         public Test(List<Question> questions, IMessage message, string rootPathFiles) 
@@ -50,13 +50,13 @@ namespace GeniusIdiot.Common
                 {
                     _message.Write($"Вопрос под номером {i + 1}\nНа ответ 10 секунд.");
                     _message.Write(_questions[i].Text);
-                    _timeElapsed = false;
+                    _time = true;
                     
                     timer.Start();
-                    int? input = GeneralMethods.CheckInt(_message.Read(), !_timeElapsed, _message);
+                    int? input = GeneralMethods.CheckInt(_message.Read(), ref _time, _message);
                     timer.Stop();
 
-                    if (!_timeElapsed)
+                    if (_time)
                         if (_questions[i].Answer == input)
                             countCorrectAnswers++;
                 }
@@ -77,7 +77,7 @@ namespace GeniusIdiot.Common
         private void OnTimerElapsed(object sender, ElapsedEventArgs e)
         {
             _message.Write("Время истекло, нажмите Enter");
-            _timeElapsed = true;
+            _time = false;
         }
         public void ShowResults(User user, int countCorrectAnswers) => _message.Write(
             $"{user.LastName} {user.FirstName}, ваш диагноз: {user.LevelKnowledge} " +
