@@ -1,4 +1,0 @@
-﻿[ERROR] 15.05.2025 12:15:50: The file could not be read:
-Could not find file 'C:\Users\svyatoslav\Desktop\Приложения для работы\OOP\GeniusIdiot\GeniusIdiotWinFormsApp\Data\JSONFiles\Questions.json'.
-[ERROR] 15.05.2025 12:16:10: The file could not be read:
-Could not find file 'C:\Users\svyatoslav\Desktop\Приложения для работы\OOP\GeniusIdiot\GeniusIdiotWinFormsApp\Data\JSONFiles\Users.json'.

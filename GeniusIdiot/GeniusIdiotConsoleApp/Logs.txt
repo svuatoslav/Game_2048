@@ -1,6 +1,0 @@
-[ERROR] 29.04.2025 20:21:02: The file could not be read:
-File Not Found
-Could not find file 'C:\Users\svyatoslav\Desktop\Приложения для работы\OOP\GeniusIdiot\GeniusIdiotConsoleApp\bin\Debug\net8.0\Question'.
-[ERROR] 29.04.2025 20:28:12: The file could not be read:
-File Not Found
-Could not find file 'C:\Users\svyatoslav\Desktop\Приложения для работы\OOP\GeniusIdiot\GeniusIdiotConsoleApp\bin\Debug\net8.0\User'.

@@ -1,4 +1,0 @@
-﻿[ERROR] 15.05.2025 2:52:09: Failed to write a file:
-Could not find a part of the path 'C:\Users\svyatoslav\Desktop\Приложения для работы\OOP\GeniusIdiot\GeniusIdiotConsoleApp\Data\XMLJSON\Questions.json'.
-[ERROR] 15.05.2025 12:03:24: The file could not be read:
-Could not find file 'C:\Users\svyatoslav\Desktop\Приложения для работы\OOP\GeniusIdiot\GeniusIdiotConsoleApp\Data\JSONFiles\Users.json'.
