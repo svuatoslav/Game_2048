@@ -1,6 +1,4 @@
-﻿using System.Timers;
-
-namespace GeniusIdiot.Common
+﻿namespace GeniusIdiot.Common
 {
     abstract public class BaseTest
     {
