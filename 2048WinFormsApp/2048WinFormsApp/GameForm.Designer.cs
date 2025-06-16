@@ -1,6 +1,6 @@
 ﻿namespace _2048WinFormsApp
 {
-    partial class MainForm
+    partial class GameForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -161,7 +161,7 @@
             labelRecord.TabIndex = 21;
             labelRecord.Text = "0";
             // 
-            // MainForm
+            // GameForm
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -180,9 +180,10 @@
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             ForeColor = SystemColors.Window;
             Margin = new Padding(5);
-            Name = "MainForm";
+            Name = "GameForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "MainForm";
+            Text = "GameForm";
+            Load += GameForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
